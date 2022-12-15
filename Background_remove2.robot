@@ -16,6 +16,7 @@ Open The Background Remover Website
 *** Keywords ***
 Upload Image
      Click Element When Visible    xpath://*[@id="root"]/div[1]/div[2]/div[1]/div/div[2]/div[2]/div/div
+     Sleep  3
      Autosphere.Desktop.Click  image:./images/filename.png
      
      Autosphere.Desktop.Type Text   C:\\Users\\LENOVO T470\\Documents\\images.jpg
